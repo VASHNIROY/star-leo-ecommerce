@@ -1,0 +1,13 @@
+.profileContainer {
+  background-color: #ffffff;
+}
+.profileListContainer {
+  padding: 10px;
+  text-align: center;
+  list-style-type: none;
+  cursor: pointer;
+}
+.profileListContainer li {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

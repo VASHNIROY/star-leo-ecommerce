@@ -1,0 +1,61 @@
+.cards-medicnes-main-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .cards-medicnes-sub-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 82%;
+  }
+  
+  .cards-medicines-mini-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    padding: 24px 24px 24px 24px;
+    margin: 20px;
+    border-radius: 20px;
+    gap: 20px;
+  }
+  .cards-medicines-heading {
+    color: #184363;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 0;
+  }
+  .cards-medicines-icon{
+    font-size: 30px;
+    color: #1589E3;
+  }
+  .cards-medicines-icon:hover{
+    color: black;
+  }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+.cards-medicnes-sub-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  }
+
+@media only screen and (min-width:312px) and (max-width: 767px){
+    .cards-medicnes-sub-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 75%;
+    }
+  }
+  

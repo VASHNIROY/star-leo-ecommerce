@@ -1,0 +1,125 @@
+.medicine-banner-main-container {
+  padding-top: 48px !important;
+  padding-bottom: 56px !important;
+  background: #b5e4f6 url(https://enovathemes.com/propharm/wp-content/uploads/row_big_1.jpg?id=2513) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  width:100%;
+  }
+  
+  .medicine-banner-sub-container {
+    max-width: 600px; 
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .medicine-banner-heading {
+    font-size: 36px;
+    color:#184363;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .medicine-banner-paragraph {
+    font-size: 14px;
+    color: #184363; 
+    margin-bottom: 20px;
+  }
+  
+  .medicine-banner-input {
+    width: 100%;
+    padding: 15px;
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .medicine-banner-button-container {
+    text-align: center;
+    width:100%;
+  }
+  
+  .medicine-banner-button {
+    width: 100%;
+    background-color: #f2971f;
+    color:#fff;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .medicine-banner-button:hover {
+    background-color: #184363;
+  }
+  .medicine-banner-icon{
+    font-size: 34px;
+    margin: 10px;
+  }
+  .medicine-banner-input-container1{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    display:flex;
+  }
+  .medicine-banner-input1{
+    width: 100%;
+    padding: 14px;
+    border:none;
+    outline: none;
+    border-radius: 20px 0px 0px 20px;
+    
+  }
+  .medicine-banner-button-container1{
+    text-align: center;
+    width:30%;
+    
+  } 
+  .medicine-banner-button1{
+    width: 100%;
+    padding: 11px;
+    background-color: #f2971f;
+    color:#fff;
+    font-weight: 700;
+    font-size: 20px;
+    border:none;
+    outline: none;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+  }
+  .medicine-banner-input-container{
+    display: none;
+}
+  @media screen and (max-width:520px) {
+    .medicine-banner-input-container1{
+        display: none;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .medicine-banner-input-container{
+        display: none;
+    }
+    .medicine-banner-input-container1{
+        display:flex;
+    }
+    
+  }
+  @media screen and (max-width:320px){
+    .medicine-banner-sub-container{
+        width: 90%;
+      }
+  }
+  @media screen and (max-width:512px) {
+    .medicine-banner-input-container{
+        display: block;
+    }
+    .medicine-banner-input-container1{
+        display:none;
+    }
+    
+  }

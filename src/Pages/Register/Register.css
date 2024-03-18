@@ -1,0 +1,63 @@
+.register-page-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+}
+
+.register-page-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  gap: 10px;
+}
+
+.register-page-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.register-page-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.register-page-label {
+  font-size: 13px;
+  color: #56778f;
+}
+.register-page-input {
+  height: 40px;
+  background-color: #edf4f6;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+}
+
+.register-page-text {
+  color: #56778f;
+  font-size: 14px;
+  margin: 0px;
+  text-align: center;
+  width: 50%;
+}
+.register-page-button {
+  background-color: #f2971f;
+  color: #fff;
+  border-radius: 10px;
+  width: max-content;
+  padding: 8px 12px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 797px) {
+  .register-page-container1 {
+    width: 100%;
+  }
+}

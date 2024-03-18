@@ -1,0 +1,5 @@
+.product-list-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 82%;
+}

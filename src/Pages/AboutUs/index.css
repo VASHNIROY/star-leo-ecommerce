@@ -1,0 +1,250 @@
+.medicine-about-us-whole-container{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.medicine-about-us-main-container {
+    background-color: #fff;
+    padding: 20px 0px;
+    border-radius: 10px;
+    width: 82%;
+    display: flex;
+    justify-content: space-between;  
+  }
+  .medicine-about-us-mini-container{
+    width: 82%;
+  }
+  .medicine-about-us-text-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .medicine-about-us-title {
+    color: #184363;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .medicine-about-us-text {
+    color: #56778f;
+    width: 75%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .medicine-about-us-button-container{
+    display: flex;
+    text-align: center;
+    align-items: center
+  }
+  .medicine-about-us-button {
+    background-color: #15a9e3;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  .medicine-about-us-trusted-container{
+    background-image: url(https://enovathemes.com/propharm/wp-content/uploads/slide5_back.jpg?id=2253);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    height: 200px;
+  }
+  .medicine-about-us-count-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.medicine-about-us-count-heading{
+    font-size: 55px;
+    color: #15a9e3;
+}
+.medicine-about-us-count-para{
+    color: #184363;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 8px 0px 0px 0px;
+}
+.medicine-about-us-card-container {
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 40px 0px;   
+}
+.medicine-about-us-card-sub-container{
+    display: flex;
+    width: 82%;
+    gap:20px
+}
+.medicine-about-us-image-container {
+    width: 40%;
+    height: auto;
+}
+.medicine-about-us-image {
+    width: 100%;
+    border-radius: 10px;    
+}
+.medicine-about-us-text-container{
+    width: 60%;    
+}
+.medicine-about-us-heading{
+       color: #184363;
+       font-size: 16px;
+       font-weight: 700;
+}
+client-reviews-whole-container{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.client-reviews-main-container{
+    background-image: url(	https://enovathemes.com/propharm/wp-content/uploads/slide2_back.jpg?id=2205);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: max-content;
+    padding:20px 0px;
+}
+.clent-reviews-mini-container{
+    align-items: center;
+    text-align: center;
+    width:82%;
+}
+.client-reviews-heading{
+    color: #184363;
+    font-size: 24px;
+    font-weight: 700;
+}
+.client-reviews-para{
+    color: #184363;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.client-reviews-cards-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 82%;
+    gap: 20px;
+}
+.client-reviews-card{   
+    width:23%;
+   text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+.client-reviews-img{
+    border-radius: 100%;
+}
+.client-reviews-card-para{
+    color: #184363;
+    font-size: 16px;
+    padding: 0px 10px 0px 10px;
+}
+.client-reviews-name{
+    font-size: 14px;
+    font-weight: 600 !important;
+    margin-top: 8px;
+    color: #bdbdbd;
+}
+.client-reviews-follow-instagram-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+}
+.client-reviews-follow-heading{
+    color: #184363;
+    font-size: 24px;
+    text-align: center;
+}
+.client-reviews-follow-img-container{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap :10px;
+    width:82%;
+}
+.client-reviews-follow-img{
+    width: 150px;
+    height: 40%;
+    border-radius: 10px;
+}
+@media (max-width:912px){
+    .client-reviews-card{
+        width:45%;
+    }
+}
+
+@media (max-width:512px) {
+    .client-reviews-card{
+        width:90%;
+    }
+    .client-reviews-cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .client-reviews-follow-img-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .client-reviews-main-container{
+        height:max-content;
+        padding:10px 0px;
+    }
+}
+@media screen and (min-width:320px) and (max-width: 900px) {
+    .medicine-about-us-main-container{
+        width: 90%;
+        flex-direction: column;
+    }
+    .medicine-about-us-mini-container{
+        width: 100%;
+    }
+    .medicine-about-us-text {
+        width: 100%;
+    }
+    .medicine-about-us-card-sub-container{
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    .medicine-about-us-count-heading{
+        font-size: 30px;
+    }
+    .medicine-about-us-count-para{
+        font-size: 10px;
+    }
+    .medicine-about-us-image-container{
+        width: 100%;
+    }
+    .medicine-about-us-text-container{
+        width: 100%;
+    }
+}
+
+  
